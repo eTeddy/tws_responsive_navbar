@@ -47,21 +47,24 @@ body {
   width: 300px;
   padding: 15px;
   border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  /* font */
+  text-align: left;
   color: green;
   font-size: large;
   font-weight: bold;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  text-align: left;
+  font-family: cursive;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 3.5) {
   .cat_fact {
-    width: 90%;
+    margin: 10px;
   }
   .container button {
     width: 80%;
   }
 }
+
 /*
 @media only screen and (max-width: 500px) {
   .cat_fact {
