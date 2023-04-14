@@ -5,7 +5,7 @@ import {
 } from "react-router-dom"
 import { useState } from "react";
 
-export const Data = () => {  
+export const Dog = () => {  
   const [ dogUrl, setDogUrl ] = useState(useLoaderData());
   const navigation = useNavigation();
 
@@ -18,10 +18,9 @@ export const Data = () => {
   if ( navigation.state === "loading") { return <h1>Loading...</h1> }
   
   return (
-    <div>
+    <div className="container">
       <button onClick={handleNewDog}>New 🐶 Dog</button> 
-      <br />
-      <img src={dogUrl} alt="dog"/>
+      <img src={dogUrl} alt="dog"/>      
     </div>
   ) 
 }
