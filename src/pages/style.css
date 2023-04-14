@@ -54,25 +54,14 @@ body {
   font-size: large;
   font-weight: bold;
   font-family: cursive;
+  line-height: 16;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 3.5) {
+@media only screen and (max-width: 450px) {
   .cat_fact {
-    margin: 10px;
+    width: 80%;
   }
   .container button {
     width: 80%;
   }
 }
-
-/*
-@media only screen and (max-width: 500px) {
-  .cat_fact {
-    width: 90%;
-  }
-  .container button {
-    width: 80%;
-  }
-}
-*/
-
