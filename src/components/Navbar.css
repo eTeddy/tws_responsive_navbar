@@ -52,8 +52,13 @@ nav {
         margin-right: 0px;
         padding: 20px 0;
     }
-    .nav_btn {
-        display: block;
-    }
+
 
 }
+
+@media only screen and (max-width: 450px) {
+    .nav_btn {
+        display: block;
+        font-size: 25px;
+    }
+  }
