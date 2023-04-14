@@ -5,9 +5,11 @@ import { useState } from "react";
 export const Dog = () => {
   const [dogUrl, setDogUrl] = useState(
     useLoaderData()
+    /*
     ? useLoaderData()
     : "https://images.dog.ceo/breeds/finnish-lapphund/mochilamvan.jpg"
-  );
+    */
+    );
   const navigation = useNavigation();
 
   const handleNewDogClick = async () => {
@@ -23,8 +25,8 @@ export const Dog = () => {
 
   return (
     <div className="container">
+      <button onClick={handleNewDogClick}>New 🐶 Dog</button>      
       <img src={dogUrl} alt="Dog" />      
-      <button onClick={handleNewDogClick}>New 🐶 Dog</button>
     </div>
   );
 };

@@ -10,8 +10,8 @@ export const Fox = () => {
 
 	return (
     <div className="container">
+			<button onClick={newnum}>New 🦊 Fox</button>					
 			<img src={`https://randomfox.ca/images/${num}.jpg`} alt="fox" />        
-			<button onClick={newnum}>New 🦊 Fox</button>			
 		</div>
 	)
 }

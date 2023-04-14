@@ -24,9 +24,9 @@ export const CatFact = () => {
 
   return (
     <div className="container">
+      <button onClick={getNewFact}>New 😺 Fact</button>         
       <h2>Did you know?</h2>    
       <div className="cat_fact">{fact}</div>   
-      <button onClick={getNewFact}>New 😺 Fact</button>           
     </div>
   )
 }

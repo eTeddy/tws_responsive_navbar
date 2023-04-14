@@ -23,8 +23,8 @@ export const Cat = () => {
 
   return (
     <div className="container">
+      <button onClick={handleNewCatClick}>New 😺 Cat</button>      
       <img src={`https://cataas.com${catUrl}`} alt="Cat" />      
-      <button onClick={handleNewCatClick}>New 😺 Cat</button>
     </div>
   );
 };
