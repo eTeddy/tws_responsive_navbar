@@ -57,9 +57,9 @@ body {
   line-height: 1.5;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   .cat_fact {
-    width: 90%;
+    width: 80%;
   }
   .container button {
     width: 80%;
