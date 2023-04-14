@@ -1,4 +1,4 @@
-import "./style.css";
+import "./pages.css";
 import { useLoaderData, useNavigation } from "react-router-dom";
 import { useState } from "react";
 

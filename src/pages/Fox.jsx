@@ -1,4 +1,4 @@
-import './style.css'
+import './pages.css'
 import { useState } from "react";
 
 export const Fox = () => {

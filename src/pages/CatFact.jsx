@@ -1,4 +1,4 @@
-import './style.css'
+import './pages.css'
 import { useEffect, useState } from 'react';
 
 export const CatFact = () => {

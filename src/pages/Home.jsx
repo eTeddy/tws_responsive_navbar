@@ -1,4 +1,4 @@
-import './style.css'
+import './pages.css'
 
 export const Home = () => {
   return (
