@@ -35,6 +35,7 @@ body {
 }
 .container button {
   background: rgb(103, 69, 45);
+  padding: 3px;
   color: wheat;
   width: 150px;
   margin-top: 10px;

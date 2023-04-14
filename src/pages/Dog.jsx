@@ -23,8 +23,8 @@ export const Dog = () => {
 
   return (
     <div className="container">
+      <img src={dogUrl} alt="Dog" />      
       <button onClick={handleNewDogClick}>New 🐶 Dog</button>
-      <img src={dogUrl} alt="Dog" />
     </div>
   );
 };
